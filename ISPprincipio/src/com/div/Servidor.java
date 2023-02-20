@@ -1,6 +1,11 @@
 package com.div;
 
-public interface Servidor {
+public class Servidor implements Logico{
 
     public void server();
+
+    @Override
+    public void desarrollo() {
+
+    }
 }
